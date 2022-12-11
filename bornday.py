@@ -9,7 +9,7 @@ if year == ASPushkin:
     if date == 6:
         print('Верно')
     else:
-        print('Неверно')
+        print('Неверный день рождения')
 
 else:
-    print('Неверно')
+    print('Неверный год')
