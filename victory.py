@@ -13,7 +13,7 @@ while again:
     for name, year in AUTHORS.items():
         answers += [int(input(f'Введите год рождения {name}: '))]
 
-    score = sum(answers[i] == list(AUTHORS.values())[i] for i in range(len(AUTHORS)))
+    score = sum( answers[i] == list(AUTHORS.values())[i] for i in range(len(AUTHORS)) )
 
     print(f'Количество правильных: {score}')
     print(f'Количество ошибок: {len(AUTHORS) - score}')
